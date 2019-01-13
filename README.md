@@ -77,7 +77,7 @@ Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our process for su
 
 #### Create 
 
-```npx oclif multi mynewcli```
+* Follow the oclif [tutorial](https://oclif.io/docs/multi)
 
 Explain how this project was build and give the technical background to contribute.
 
