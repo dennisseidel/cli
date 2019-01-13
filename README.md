@@ -1,72 +1,83 @@
-# dcli
+dscli
+=====
 
 Cli to create the assets used in [Dennis Notebook](https://denseidel.github.io/docs/index.html) including architecture, services, frontends. 
 
+[![oclif](https://img.shields.io/badge/cli-oclif-brightgreen.svg)](https://oclif.io)
+[![Version](https://img.shields.io/npm/v/dscli.svg)](https://npmjs.org/package/dscli)
+[![CircleCI](https://circleci.com/gh/denseidel/cli/tree/master.svg?style=shield)](https://circleci.com/gh/denseidel/cli/tree/master)
+[![Codecov](https://codecov.io/gh/denseidel/cli/branch/master/graph/badge.svg)](https://codecov.io/gh/denseidel/cli)
+[![Downloads/week](https://img.shields.io/npm/dw/dscli.svg)](https://npmjs.org/package/dscli)
+[![License](https://img.shields.io/npm/l/dscli.svg)](https://github.com/denseidel/cli/blob/master/package.json)
 
-## Getting Started
+<!-- toc -->
+* [Usage](#usage)
+* [Commands](#commands)
+<!-- tocstop -->
+# Usage
+<!-- usage -->
+```sh-session
+$ npm install -g dscli
+$ ds COMMAND
+running command...
+$ ds (-v|--version|version)
+dscli/0.0.0 darwin-x64 node-v11.4.0
+$ ds --help [COMMAND]
+USAGE
+  $ ds COMMAND
+...
+```
+<!-- usagestop -->
+# Commands
+<!-- commands -->
+* [`ds hello`](#ds-hello)
+* [`ds help [COMMAND]`](#ds-help-command)
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+## `ds hello`
+
+Describe the command here
 
 ```
-If possible, provide a quick exemple of how to get this running with minimal effort, so anyone curious can get up and running as fast as possible 
+USAGE
+  $ ds hello
+
+OPTIONS
+  -n, --name=name  name to print
+
+DESCRIPTION
+  ...
+  Extra documentation goes here
 ```
 
-### Prerequisites
+_See code: [src/commands/hello.js](https://github.com/denseidel/cli/blob/v0.0.0/src/commands/hello.js)_
 
-What things you need to install the software and how to install them
+## `ds help [COMMAND]`
 
-```
-Give examples
-```
-
-### Installing
-
-A step by step series of examples that tell you have to get a development env running
-
-Say what the step will be
+display help for ds
 
 ```
-Give the example
+USAGE
+  $ ds help [COMMAND]
+
+ARGUMENTS
+  COMMAND  command to show help for
+
+OPTIONS
+  --all  see all commands in CLI
 ```
 
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
+_See code: [@oclif/plugin-help](https://github.com/oclif/plugin-help/blob/v2.1.4/src/commands/help.ts)_
+<!-- commandsstop -->
 
 ## Contributing
 
 Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our process for submitting pull requests to us.
 
 ### Develop
+
+#### Create 
+
+```npx oclif multi mynewcli```
 
 Explain how this project was build and give the technical background to contribute.
 
@@ -81,10 +92,3 @@ See the list of [contributors](CONTRIBUTORS) who participated in this project.
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Thanks to [@zalando-incubator/new-project](https://github.com/zalando-incubator/new-project) for the project template
-* Thanks to [@PurpleBooth](https://github.com/PurpleBooth) for the original readme
-* Thanks to the [@zalando/Nakadi](https://github.com/zalando/nakadi) project for Contribution file
-* Thanks to [@SteveMao](https://github.com/stevemao) for [Issue templates](https://github.com/stevemao/github-issue-templates)
