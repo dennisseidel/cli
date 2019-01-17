@@ -12,7 +12,7 @@ class CreateCommand extends Command {
   }
 }
 
-CreateCommand.description = `Describe the command here
+CreateCommand.description = `Create resources e.g. cli, database
 ...
 Extra documentation goes here
 `

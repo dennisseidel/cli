@@ -11,6 +11,7 @@
     "@oclif/command": "^1.5.8",
     "@oclif/config": "^1.10.4",
     "@oclif/plugin-help": "^2.1.4",
+    "command-exists": "^1.2.8",
     "opn": "^5.4.0",
     "shelljs": "^0.8.3"
   },
